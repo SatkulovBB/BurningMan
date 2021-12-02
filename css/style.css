@@ -1,0 +1,182 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+*{
+	box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*First line*/
+
+.header{
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	color: #fff;
+	padding-top: 57px;
+	padding-bottom: 322px;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto; /*позиция по центру*/
+}
+
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.menu{
+display: flex;
+}
+
+header a{
+	color: white;
+}
+
+section {
+	padding-top: 113px	
+}
+
+.logo{
+	margin-right: 69px;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 40px;
+	letter-spacing: 0.1em;
+}
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+	
+}
+
+
+.nav {
+	display: flex;
+	align-items: center;
+	
+	}
+
+.tel{
+	margin-left: auto;
+	font-size: 17px;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+/*Second line*/
+
+.offer{
+	text-transform: uppercase;
+	margin-top: 206px;
+
+}
+
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+
+.offer h1 {
+	font-size: 100px;
+	letter-spacing: 0.2em;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	
+}
+
+.btn{
+	display: block;
+	font-size: 17px;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 236px;
+	text-align: center;
+	transition: all 0.5s ease;
+	letter-spacing: 0.1em;
+	
+}
+
+.btn:hover {
+	background: #fff;
+	color: #000;
+}
+
+
+.heading h2{
+	font-size: 50px;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+.description {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 400;
+
+}
+
+.description p{
+	
+	font-size: 16px;
+	width: 564px;
+}
+
+.description-right, .description-left{
+	width: 564px;
+}
+
+.gallery{
+	margin-top: 67px;
+	justify-content: space-between;
+	display: flex;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+
+/*Увелечение анимация фото*/
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+
+.footer-text{
+	display: flex;
+	padding: 114px 0;
+	font-family: 'open Sans',sans-serif;
+	font-style: 15px;
+
+}
+.footer-text p{
+	margin-right: 67px;
+}
+
